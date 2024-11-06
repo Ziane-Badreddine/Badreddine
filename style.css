@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #3a6cf4;
+}
+
+.navigation a:hover {
+    color: #7246d8;
+    text-decoration: underline;
+}
+
+.menu {
+    display: none;
+}
+
+.menu-div{
+    display: none;
+}
+
+
+
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/top-view-desk-dark-concept-with-copy-space.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 1px;
+    color: #4e9eff;
+    font-size: 2.4em;
+    font-weight: 600;
+}
+
+.main h3 {
+    width: 80%;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.main-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3a6cf4;
+    font-size: 1.1em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.9375em 2.8175em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: #0a49f6;
+    transform: scale(1.1, 1.1);
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 2em;
+    padding-right: 33px;
+}
+
+.title {
+    color: #3a6cf4;
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #3a6cf4;
+    font-size: 1.4em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects {
+    background-color: #000000dc;
+}
+
+.projects .content {
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    width: 23em;
+    margin: 20px;
+    border-radius: 10px;
+    height: 17em;
+    overflow: hidden;
+    transition: 0.7s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.project-image {
+    height: 70%;
+}
+
+
+.project-card:hover .project-image {
+    opacity: 0.9;
+}
+
+.project-infos {
+    padding: 1em;
+}
+
+.project-category {
+    color: #000;
+    font-size: 0.8em;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.more-details {
+    text-decoration: none;
+    color: #3a6cf4;
+}
+
+.more-details:hover {
+    color: #7246d8;
+}
+
+.card-contact .icon {
+    font-size: 4.5em;
+}
+
+.card-contact .info h3 {
+    color: #000;
+}
+
+.card-contact .info p {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.footer {
+    background-color: #000000dc;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #3a6cf4;
+}
+
+.footer .social-icons a {
+    font-size: 1.5em;
+    padding: 0 12px 0 0;
+}
+
+
+
+/* Pour les écrans de tablettes et petits ordinateurs */
+@media (max-width: 1024px) {
+
+    header {
+        padding: 10px 100px;
+        /* Réduit la marge latérale */
+    }
+
+    section {
+        padding: 80px 100px;
+        /* Réduit la marge latérale */
+    }
+
+    .logo {
+        font-size: 1.5em;
+        /* Réduit la taille du logo */
+    }
+
+    .navigation a {
+        font-size: 1em;
+        /* Réduit la taille des liens de navigation */
+    }
+
+    .main h2 {
+        font-size: 1.2em;
+        /* Ajuste la taille du titre */
+    }
+
+    .main h2 span {
+        font-size: 2em;
+    }
+
+}
+
+/* Pour les écrans mobiles */
+@media (max-width: 768px) {
+    .menu-div {
+        
+        
+        text-decoration: none;
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        top: 55px;
+        left: 260px;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        width: 30%;
+        background-color: #ffffffd5;
+        border-radius: 10px;
+
+    }
+
+    .menu-div a{
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 500;
+        color: #3a6cf4;
+    }
+
+    header {
+        padding: 10px 20px;
+        /* Marge latérale minimale */
+    }
+
+    .navigation a {
+        display: none;
+        padding: 10px 0;
+        /* Sépare les liens de navigation */
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .main h2 {
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .main-btn {
+        margin: auto;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+
+    .main {
+        padding-top: 20px;
+        padding: 80px 10px 50px 10px;
+    }
+
+    .main h3 {
+        display: none;
+        margin: auto;
+    }
+
+    .main-div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    section {
+        padding: 60px 10px;
+        /* Réduit la marge latérale */
+    }
+
+    .title {
+        font-size: 1.8em;
+        /* Ajuste la taille du titre */
+    }
+
+    .card,
+    .project-card {
+        width: 100%;
+        /* Les cartes prennent toute la largeur */
+        margin: 10px 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-title {
+        margin-bottom: 20px;
+    }
+}
